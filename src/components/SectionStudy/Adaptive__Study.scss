@@ -1,0 +1,32 @@
+@media (max-width: 800px) {
+    .study__card__wrapper {
+        width: 313px;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 55px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 580px) {
+    .study_elipse_2 {
+        width: 285px;
+    } 
+
+    .sectionStudy__wrapper .container {
+        margin: 0;
+    }
+}
+
+@media (max-width: 365px) {
+    .study__card__wrapper {
+        width: 258px;
+    }
+
+    .study__card {
+        width: 213px;
+    }
+}
+

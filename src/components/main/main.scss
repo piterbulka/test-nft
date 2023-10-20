@@ -1,0 +1,42 @@
+$text-color-gray: #CECECE;
+.main__wrap {
+    position: relative;
+    padding-bottom: 170px;
+    z-index: 2;
+}
+
+.main__text {
+    z-index: 3;
+}
+.main__title {
+    font-weight: 300;
+    font-size: 66px;
+    max-width: 60%;
+    margin-top: 88px;
+    line-height: 75px;
+}
+
+.bgc__img__adaptive {
+    display: none;
+}
+
+.main__subtitle {
+    color: #CECECE;
+    max-width: 575px;
+    font-weight: 400;
+}
+
+.bold__text{
+    font-weight: 600;
+}
+
+.bgc-img {
+    background-image: url(../../assets/img/MAN.svg);
+    height: 772px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    top: -20px;
+    right: -30px;
+    width: 800px;
+}

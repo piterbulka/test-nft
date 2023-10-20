@@ -1,0 +1,64 @@
+$bgc-color-primary: #1D2532;
+$font-family-primary:'Inter', sans-serif;
+$text-color-light: #FFFFFF;
+$text-color-gray: #CECECE;
+
+
+.App {
+  background-color:$bgc-color-primary;
+  font-family: $font-family-primary;
+  color: $text-color-light;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.bgc-logo {
+  position: absolute;
+}
+
+.button__light{
+  width: 175px;
+  height: 51px;
+  border-radius: 15px;
+  border: 1px solid $text-color-light; 
+  background-color: transparent; 
+  padding: 16px 22px 16px 22px;
+  background-color: initial;
+  color: $text-color-light;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    border: 1px solid rgba(195, 243, 59, 1);
+    color: rgba(195, 243, 59, 1);
+    transition: all 0.3s;
+  }
+}
+
+.button__green {
+  color: $bgc-color-primary;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 20px 30px 20px 30px;
+  background:linear-gradient(92.84deg, #1DD844 1.44%, #CBF62E 126.29%);
+  line-height: 26px;
+  font-weight: 600;
+  margin-top: 50px;
+  border: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    transition: all 0.3s;
+    background: linear-gradient(92.84deg, #1DD844 1.44%, #CBF62E 126.29%);
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+

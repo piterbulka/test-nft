@@ -1,0 +1,148 @@
+@media (max-width: 1400px) {
+    .container {
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 900px) {
+    .bgc-img {
+        display: none;
+    }
+    .bgc-logo{
+        width: 353px;
+        height: 365px;
+    }
+    .bgc__img__adaptive {
+        display: block;
+        height: 60%;
+        width: 100%;
+
+    }
+    .main__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__title {
+        margin-top: 50px;
+        text-align: center;
+        max-width: fit-content;
+    }
+
+    .main__subtitle {
+        text-align: center;
+    }
+}
+
+@media (max-width: 746px) {
+    .main__title {
+
+        font-size: 57px;
+        line-height: 59px;
+    }
+}
+
+@media (max-width: 650px) {
+    .main__title {
+        font-size: 49px;
+    }
+    .modal__content {
+        padding: 35px 15px 60px 13px;
+    }
+}
+@media (max-width: 586px) {
+    .study_elipse {
+       display: none;
+    }
+}
+@media (max-width: 574px) {
+    .main__title {
+        font-size: 43px;
+    }
+
+    .modal__title {
+        font-weight: 400;
+        font-size: 37px;
+    }
+
+    .modal__subtitle {
+        width: 354px;
+        font-size: 18px;
+    }
+
+    .modal__email {
+        padding: 15px 228px 15px 20px;
+    }
+}
+
+@media (max-width: 511px) {
+.main__title {
+    font-size: 37px;
+}
+}
+
+@media (max-width: 451px) {
+    .main__title {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .main__wrap {
+        padding-bottom: 88px;
+    }
+}
+
+@media (max-width: 428px) {
+    .modal__button {
+        margin-top: 0px;
+        padding: 10px 24px 10px 21px;
+    }
+    
+    .modal__title {
+        font-size: 32px;
+    }
+
+    .modal__subtitle {
+        font-size: 16px;
+    }
+
+    .modal__email {
+        padding: 15px 192px 15px 20px;
+    }
+}
+
+@media (max-width: 427px) {
+    .button__green {
+        font-size: 14px;
+    }
+
+    .modal__title {
+        font-size: 24px;
+        
+    }
+
+    .modal__subtitle {
+        font-size: 16px;
+        width: 232px;
+    }
+
+    .modal__email {
+        padding: 10px 48px 8px 14px;
+    }
+}
+
+
+@media (max-width: 401px) {
+    .main__title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 361px) {
+    .main__title {
+        font-size: 24px;
+        line-height: 39px;
+    }
+}
