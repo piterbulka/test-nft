@@ -1,27 +1,30 @@
-// import React, { useState } from 'react';
-// import "./burger_menu.scss"
+import React, { useState } from 'react';
+import "./burger_menu.scss"
 
-// const BurgerMenu = () => {
-//   const [isMenuOpen, setMenuOpen] = useState(false);
+const BurgerMenu = () => {
+    const [isMenuOpen, setMenuOpen] = useState(false);
 
-//   const toggleMenu = () => {
-//     setMenuOpen(!isMenuOpen);
-//   };
+    const toggleMenu = () => {
+        setMenuOpen(!isMenuOpen);
+    };
 
-//   return (
-//     <div className="burger-menu">
-//       <div className={`menu-toggle ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
-//         <div className="bar"></div>
-//         <div className="bar"></div>
-//         <div className="bar"></div>
-//       </div>
-//       <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
-//         <li>Главная</li>
-//         <li>О нас</li>
-//         <li>Контакты</li>
-//       </ul>
-//     </div>
-//   );
-// };
+    return (
+        <div className="">
+            <div className="burger-menu">
+                <div className={`menu-toggle ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+                    <div className={`bar ${isMenuOpen ? 'cross' : ''}`}></div>
+                    <div className={`bar ${isMenuOpen ? 'cross' : ''}`}></div>
+                </div>
+            </div>
+            <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
+                <li className="header__link">Главная</li>
+                <li className="header__link">Что даст обучение</li>
+                <li className="header__link">
+                    <button className="button__light">Личный кабинет</button></li>
+            </ul>
 
-// export default BurgerMenu;
+        </div>
+    );
+};
+
+export default BurgerMenu;

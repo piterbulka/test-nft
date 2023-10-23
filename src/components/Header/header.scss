@@ -5,28 +5,33 @@ $text-color-gray: #CECECE;
     justify-content: space-between;
     padding: 15px 0;
 }
+
 .header__menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 736px;
 }
-.header__logo{
+
+.header__logo {
     display: flex;
     gap: 10px;
     align-items: center;
+    z-index: 10;
 }
-.header__logo_text{
+
+.header__logo_text {
     text-transform: uppercase;
     font-size: 45px;
 }
+
 .header__logo_ball {
-  width: 41.05px;
-  height: 41.05px;
-  border-radius: 30px;
-  transform: rotate(328deg);
-  background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
-  border-image-source: radial-gradient(91.49% 91.49% at 51.06% 8.51%, rgba(226, 193, 255, 0.53) 0%, rgba(133, 61, 242, 0.55) 100%);
+    width: 41.05px;
+    height: 41.05px;
+    border-radius: 30px;
+    transform: rotate(328deg);
+    background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
+    border-image-source: radial-gradient(91.49% 91.49% at 51.06% 8.51%, rgba(226, 193, 255, 0.53) 0%, rgba(133, 61, 242, 0.55) 100%);
 }
 
 .header__link {

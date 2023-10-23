@@ -1,6 +1,15 @@
-
 @media (max-width: 737px) {
-    .header__link {
+    .header__menu {
         display: none;
     }
+
+    .header__logo_ball {
+        width: 33.05px;
+        height: 33.05px;
+    }
+
+    .header__logo_text {
+        font-size: 33px;
+    }
+
 }

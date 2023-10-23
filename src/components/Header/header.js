@@ -1,6 +1,6 @@
 import "./header.scss"
 import "./Header__Adaptive.scss"
-// import BurgerMenu from '../burger_menu/burger_menu';
+import BurgerMenu from '../burger_menu/burger_menu';
 
 const Header = () => {
     return (
@@ -18,7 +18,7 @@ const Header = () => {
                         <button className="button__light">Личный кабинет</button>
                     </div>
                 </div>
-                {/* <BurgerMenu /> */}
+                <BurgerMenu />
             </div>
         </div>
     )
